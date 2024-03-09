@@ -1,6 +1,6 @@
 # AI-Driven-Breast-Cancer-Prediction
 
-![Code review]()
+![Code review](https://github.com/IEEE-NOVA-SB/AI-Driven-Breast-Cancer-Prediction/blob/main/doctors.png)
 
 
 
@@ -8,14 +8,29 @@
 
 ### What your application does?
 
+The application leverages machine learning to accurately predict breast cancer based on diagnostic measurements. 
+
+Utilizing the MLPClassifier from the scikit-learn library, it applies a multi-layer perceptron (a type of deep neural network) to classify instances into malignant or benign categories. 
+
+The application preprocesses the data, scales features for better model performance, and utilizes a systematic approach to hyperparameter optimization to enhance the prediction accuracy.
  
 ### Why you used the technologies you used?
 
+The technologies were chosen for their robustness, ease of use, and wide adoption in the machine learning community.
 
+scikit-learn is a powerful library for machine learning that provides efficient tools for data mining and data analysis, including numerous algorithms for classification, regression, clustering, and dimensionality reduction.
+
+It's highly compatible with Python's data manipulation tools and is complemented by libraries like Optuna for advanced hyperparameter optimization, enhancing the model's performance by fine-tuning its settings based on systematic trials and evaluations.
+
+The use of MLPClassifier allows for complex model architectures that can capture intricate patterns in the dataset, and integrating Optuna further refines the model by selecting the optimal configuration of its hyperparameters, ensuring the best possible prediction accuracy.
     
 ### Some of the challenges you faced and features you hope to implement in the future?
 
+One of the main challenges was finding the optimal architecture and hyperparameters for the MLPClassifier to maximize prediction accuracy. 
 
+The model's performance heavily relies on the correct tuning of parameters such as the number of hidden layers, the size of these layers, and the learning rate. 
+
+Another challenge was ensuring the model generalized well to unseen data, minimizing overfitting.
 
 
 # Table of Contents
